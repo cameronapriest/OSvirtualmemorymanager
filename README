@@ -2,6 +2,10 @@ Cameron Priest
 CPE 453
 Lab 7
 
+This program is a virtual memory manager that translates logical
+addresses to physical addresses for a virtual address space of
+size 65,536 bytes.
+
 My submitted files include output.txt, which diffs with
 correct.txt. To run my program on your own, first run
 "make clean". This removes the previous executable and
