@@ -1,0 +1,29 @@
+Cameron Priest
+CPE 453
+Lab 7
+
+My submitted files include output.txt, which diffs with
+correct.txt. To run my program on your own, first run
+"make clean". This removes the previous executable and
+the file "output.txt". To compile the program, run "make"
+or "make virtual" or "make all". To run the executable,
+run "./virtual addresses.txt". Error handling is included
+to ensure a file is include as a command line argument.
+
+When the executable is run, the file "output.txt" is created
+and written to as specified in the assignment. The entire
+program works according to the assignment specification.
+
+In addition, my program prints each virtual address to stdout
+along with information about each address. Each address either:
+
+1. Results in a TLB hit.
+2. Results in what I called a Page table "hit", which occurs
+   as a result of a TLB miss.
+3. Results in a page fault.
+
+After running the executable, the command:
+"diff output.txt correct.txt" can be run to show no differences
+between the correct output and my output.
+
+The pdf "lab7.pdf" includes shortened sample output from UNIX 1.
